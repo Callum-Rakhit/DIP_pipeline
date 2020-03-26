@@ -1,0 +1,8 @@
+SPAdes_output/*
+SPAdes_output_analysis_by_QUAST/*
+bowtie2_output/*
+bwa_output/*
+*.bam
+*.fasta
+*.fastq
+*.gz
