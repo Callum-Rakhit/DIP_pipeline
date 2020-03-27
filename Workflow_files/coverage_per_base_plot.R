@@ -46,7 +46,5 @@ CoveragePerBase <- function(dataframe){
 }
 
 output <- CoveragePerBase(temp)
-ggsave(
-  paste("/home/callum.rakhit/Addenbrooks_DIP_pos_flu/", args[2], sep = ""), 
-  output, width = 16*1, height = 9*1
+ggsave(paste(args[2], "/", args[3], sep = ""), output, width = 16*1, height = 9*1
   )
