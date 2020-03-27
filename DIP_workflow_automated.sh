@@ -45,6 +45,10 @@
 # Run SPAdes for all samples in identical_clade folder, save to DIP_Workflow/SPAdes_output/
 for i in $(ls identical_clade/*R1*); do DIP_Workflow/SPAdes_runner.sh $i; done
 
+## Remove prefix
+#for name in $(ls ViReMa_output/identical_clade/408720_RE17000923_OM_H3N2-1/unalign.baseName_*); \
+#do newname="$(echo "$name" | cut -c18-)"; mv "$name" "$newname"; done
+
 # First do some trimming with "sickle" quality control
 # Joshi NA, Fass JN. (2011). Sickle: A sliding-window, adaptive, quality-based trimming
 # tool for FastQ files (v1.33) - Available at https://github.com/najoshi/sickle

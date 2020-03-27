@@ -3,9 +3,9 @@
 use Cwd;
 use File::Spec;
 
-#open (INFILE, "$ARGV[0]") or die "Could not open file $ARGV[0]!\n";
-#open (OUTFILE, ">$ARGV[1]") or die "Could not open output file $ARGV[1]!\n";
-#open (UNKNOWN, ">$ARGV[1].unknown") or die "Could not open output file $ARGV[1]!\n";
+# open (INFILE, "$ARGV[0]") or die "Could not open file $ARGV[0]!\n";
+# open (OUTFILE, ">$ARGV[1]") or die "Could not open output file $ARGV[1]!\n";
+# open (UNKNOWN, ">$ARGV[1].unknown") or die "Could not open output file $ARGV[1]!\n";
 
 #Parameters & help info
 my $help = "\nparse-recomb-results-Fuzz.pl\nSummarizes the results given in the Virus_Recombination_Results.txt file produced by ViReMa. This takes Fuzz factor values into account as well.\n".

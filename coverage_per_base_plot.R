@@ -5,17 +5,6 @@ GetPackages <- function(required.packages) {
   suppressMessages(lapply(required.packages, require, character.only = T))
 }
 
-tot=10000
-new=1500
-
-for(i in 1:11){
-  new=new*1.1
-  tot=tot+new
-}
-
-options(scipen = 999)
-(0.5*7000000000)*0.01
-
 GetPackages(c("ggplot2", "reshape2", "plyr"))
 args = commandArgs(trailingOnly = T)
 
