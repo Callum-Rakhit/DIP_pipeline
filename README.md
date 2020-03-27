@@ -55,7 +55,9 @@ The relevant output will be pasted in the "Output_files"
 You can look through the output files, and keep any that are useful
 
 QUAST produces a html
+
 Bandage can be used to view SPAdes de novo assembles
+
 Picard tools has useful insert size metrics and a PDF
 
 # Currently the reference genome is hard coded in the DIP_workflow file (Reference_FASTQ/EPI_ISL_274878.fasta). 
